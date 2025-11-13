@@ -646,7 +646,8 @@ li{
         /* new section css  */
 
          .heroo-section {
-            background-color: rgba(255, 34, 0, 0.443);
+            /* background-color: rgba(255, 34, 0, 0.443); */
+            background-color: black;
             padding: 10px 15px; 
             min-height: 30vh;
             display: flex;
@@ -701,7 +702,7 @@ li{
 
         
         #footer-bg {
-            background-color: #5b32a8; 
+            background-color: #000000; 
             color: white;
         }
 
