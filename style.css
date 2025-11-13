@@ -526,9 +526,9 @@ li{
         /* form section css  */
                 .admissions-section {
             padding: 40px 0;
-            background-color: #ffffff; /* White background for the section container */
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Soft shadow */
+            /* background-color: #ffffff; White background for the section container */
+            /* border-radius: 12px; */
+            /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); Soft shadow */
         }
         .left-panel h1, .right-panel h1 {
             font-weight: 700;
