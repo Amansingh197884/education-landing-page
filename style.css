@@ -297,3 +297,591 @@ li{
             .carousel-indicators {
                 bottom: 15px;}
         }
+
+        /* more card css  */
+
+      
+     
+
+       .all-card .main-title {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: #333d54;
+            margin-bottom: 20px;
+        }
+      .all-card  .subtitle {
+            font-size: 3rem;
+            font-weight: 800;
+            color: #1e293b;
+            margin-bottom: 50px;
+        }
+        
+        /* Program Card Styles */
+       .all-card .program-card {
+            background-color: #ffffff;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 25px;
+            min-height: 120px; 
+            display: flex;
+            align-items: center;
+            border: 1px solid #e0e0e0;
+            cursor: pointer;
+            
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+            text-decoration: none;
+        }
+
+      .all-card  .program-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.06);
+            background-color: #f0f8ff; 
+        }
+
+      .all-card  .icon-container {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+
+     .all-card   .icon-container i {
+            font-size: 1.8rem;
+            color: #ffffff;
+        }
+        
+      .all-card  .program-text {
+            color: #333;
+            font-weight: 600;
+            font-size: 0.95rem;
+            line-height: 1.3;
+        }
+
+        .color-orange { background-color: #ff914d; }
+        .color-purple { background-color: #6a5acd; }
+        .color-pink { background-color: #ff69b4; }
+        .color-blue-light { background-color: #87ceeb; }
+        .color-green-dark { background-color: #48b088; }
+        .color-red-brown { background-color: #a52a2a; }
+        .color-cyan { background-color: #40e0d0; }
+        .color-yellow { background-color: #daa520; }
+        .color-teal { background-color: #008080; }
+        .color-gray { background-color: #989898; }
+
+        
+      .all-card  .carousel-control-prev, .carousel-control-next {
+            position: absolute !important;
+            width: 50px !important;
+            height: 50px !important;
+            border-radius: 50% !important;
+            top: unset !important ; 
+            bottom: -80px !important; 
+            margin: auto !important;
+            opacity: 1 !important; 
+        }
+        
+        .carousel-control-prev {
+            left: 45% !important;
+            transform: translateX(-100%) !important;
+            background-color: #fce8cd; 
+            border: 1px solid #fce8cd;
+        }
+        
+        .carousel-control-next {
+            right: 45% !important;
+            transform: translateX(100%) !important;
+            background-color: #7986cb; 
+            border: 1px solid #7986cb;
+        }
+        
+        .carousel-control-prev-icon, .carousel-control-next-icon {
+            filter: none !important; 
+            width: 1.5rem !important;
+            height: 1.5rem !important;
+            color: #e57373; 
+        }
+        .carousel-control-next-icon {
+            color: #ffffff !important; 
+        }
+
+        .carousel-controls-wrapper {
+            position: relative !important;
+            height: 50px !important; 
+            margin-top: 30px;
+        }
+        
+
+        .static-grid {
+            display: none !important;
+        }
+        .carousel-controls-wrapper {
+            display: block !important; 
+        }
+
+        @media (min-width: 576px) and (max-width: 991.98px) {
+            .subtitle { font-size: 2.5rem; }
+            .program-card { min-height: 100px; }
+            .carousel-item .row > [class*="col-"] {
+                width: 50%;
+            }
+        }
+        
+        @media (min-width: 992px) {
+            #programCarousel {
+                display: none !important;
+            }
+            .static-grid {
+                display: flex !important;
+            }
+            .carousel-controls-wrapper {
+                display: none;
+            }
+        }
+ /* 4 th secion  */
+
+   .enroll-section {
+            background-color: #ff914d13;
+            /* padding: 5rem 1rem; */
+            color: var(--text-dark);
+            border-radius: 40px;
+            padding: 50px !important;
+        }
+
+        .left-content .badge {
+            font-size: 1.3rem;
+            font-weight: 500;
+            color: var(--bs-accent-color);
+            /* background-color: rgba(0, 123, 255, 0.1); */
+            padding: 0.4em 0.7em;
+            border-radius: 0.5rem;
+        }
+
+        .left-content h2 {
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: 800;
+            color: var(--heading-color);
+            line-height: 1.1;
+            margin-top: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .left-content p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+        }
+
+        .btn-enroll {
+            background-color: var(--bs-accent-color) !important;
+            color: #fff !important; 
+            font-weight: 900;
+            padding: 0.8rem 3rem !important;
+            border-radius:28px !important;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            border: none;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .btn-enroll:hover {
+            background-color: #f7a80f;
+            color: var(--text-dark);
+            transform: scale(1.02);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .enroll-item {
+            display: flex;
+            align-items: stretch;
+            margin-bottom: 2rem;
+            width: 100%; 
+        }
+
+        .separator-line {
+            width: 5px;
+            background-color: var(--bs-accent-color);
+            margin-right: 1.5rem;
+            align-self: stretch; 
+        }
+
+        .item-text {
+            color: var(--text-dark);
+            font-size: 1.05rem;
+            line-height: 1.6;
+            font-weight: 600; 
+        }
+        
+        @media (max-width: 991.98px) {
+            .right-content {
+                padding-left: 0 !important;
+                padding-top: 2rem; 
+            }
+            .enroll-item {
+                margin-bottom: 1.5rem; 
+            }
+        }
+   
+        /* form section css  */
+                .admissions-section {
+            padding: 40px 0;
+            background-color: #ffffff; /* White background for the section container */
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Soft shadow */
+        }
+        .left-panel h1, .right-panel h1 {
+            font-weight: 700;
+            color: #343a40;
+            margin-bottom: 25px;
+        }
+        .did-you-know-item {
+            padding: 15px 0;
+            border-bottom: 1px solid #dee2e6; /* Light grey divider */
+            cursor: pointer;
+        }
+        .did-you-know-item:last-child {
+            border-bottom: none;
+        }
+        .question {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #495057;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .answer {
+            color: #6c757d;
+            margin-top: 8px;
+            font-size: 0.95rem;
+        }
+        .form-control, .form-select {
+            border-radius: 8px;
+            padding: 10px 15px;
+        }
+        .btn-apply {
+            background-color: #007bff; 
+            border-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: background-color 0.3s;
+        }
+        .btn-apply:hover {
+            background-color: #0056b3;
+            border-color: #004d9c;
+        }
+        .form-check-label {
+            font-size: 0.85rem;
+            color: #6c757d;
+        }
+
+        /* new section css  */
+
+         .heroo-section {
+            background-color: #343a40; /* Charcoal Grey (replacing dark blue) */
+            padding: 80px 15px; /* Ample vertical padding */
+            min-height: 40vh; /* Minimum height for visual impact */
+            display: flex;
+            align-items: center;
+        }
+
+        .heroo-content {
+            /* Ensures content spans full width of the container */
+            width: 100%;
+        }
+
+        .text-shadow-custom {
+            /* Optional text shadow for large white text to make it pop */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .get-free-badge {
+            display: inline-block;
+            padding: 5px 10px;
+            margin-bottom: 1rem;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #ffc107; /* Bootstrap Warning Color */
+            background-color: transparent;
+            border: 2px solid #ffc107; /* Bootstrap Warning Color */
+            border-radius: 5px;
+            letter-spacing: 1px;
+        }
+
+        .apply-btn {
+            padding: 15px 40px;
+            font-size: 1.25rem;
+            font-weight: 700;
+            border: none;
+            /* Using Bootstrap's rounded-pill class for extreme roundness */
+        }
+
+        /* Responsive typography adjustments using Bootstrap's built-in responsive utilities: */
+        /* Custom h1 sizing for "HARD COPIES" */
+        .hard-copies-text {
+            font-size: 2.5rem;
+        }
+        @media (min-width: 768px) {
+            .hard-copies-text {
+                font-size: 4rem; /* Larger on desktop */
+            }
+        }
+        @media (min-width: 992px) {
+            .hard-copies-text {
+                font-size: 5.5rem; /* Even larger on large screens */
+            }
+        }
+
+        /* footer  */
+
+        
+        /* --- Footer Section Styles (Deep Purple Background) --- */
+        #footer-bg {
+            background-color: #5b32a8; /* Deep Purple */
+            color: white;
+        }
+
+        .main-footer-content {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .copyright-section {
+            background-color: rgba(0, 0, 0, 0.2);
+            padding: 15px 0;
+            font-size: 0.875rem;
+        }
+
+        /* Responsive Logo/Title Styling */
+        .footer-logo h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+        .footer-logo p {
+            font-size: 1.25rem;
+            font-weight: 300;
+        }
+
+        /* --- WhatsApp Button Styles (Custom Orange/Gold Inner Color) --- */
+        .whatsapp-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 20px;
+            right: 20px;
+            background-color: #ffc107; /* Orange/Gold Color */
+            color: #343a40; /* Dark text for contrast */
+            border-radius: 50%;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.3s ease;
+        }
+
+        .whatsapp-float:hover {
+            background-color: #ffda6a;
+            color: #343a40;
+        }
+
+        @media (max-width: 767.98px) {
+            .address-box {
+                margin-top: 20px;
+                text-align: center !important;
+            }
+        }
+
+        /* conte mm  */
+
+          .section-header h1 {
+            font-size: 2.25rem;
+            font-weight: 700;
+            color: #173f5f; /* Dark blue title */
+        }
+        .section-header p {
+            max-width: 700px;
+            margin: 1rem auto 3rem auto;
+            color: #6c757d;
+        }
+
+        /* Stats Block Styling */
+        .stats-block {
+            padding: 2rem 0;
+            border-bottom: 1px solid #dee2e6;
+            margin-bottom: 3rem;
+        }
+        .stat-item h2 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--bs-accent-color); 
+        }
+        .stat-item p {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #6c757d;
+        }
+
+        /* Card Styling */
+        .startup-card {
+            border: none;
+            border-radius: 12px;
+            overflow: hidden; /* Important to keep image corners rounded */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth Transition */
+            cursor: pointer;
+            margin-bottom: 1.5rem; /* Spacing between cards */
+        }
+
+        /* Hover Effect: Lift and Shadow */
+        .startup-card:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .card-img-top {
+            width: 100%;
+            height: 250px; /* Fixed height for consistent card appearance */
+            object-fit: cover;
+        }
+
+        .card-body {
+            padding: 1.5rem;
+        }
+
+        .card-title {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: #343a40;
+            margin-bottom: 0.5rem;
+        }
+
+        .card-subtitle {
+            font-size: 0.9rem;
+            color: #007bff;
+            font-weight: 500;
+            margin-bottom: 1rem;
+        }
+        
+        /* Responsive adjustments for smaller screens */
+        @media (max-width: 768px) {
+            .section-header h1 {
+                font-size: 1.75rem;
+            }
+            .stat-item h2 {
+                font-size: 2rem;
+            }
+            .stats-block {
+                margin-bottom: 2rem;
+            }
+            .stat-item {
+                margin-bottom: 1rem;
+            }
+        }
+
+        /* new css  */
+        
+        .skills-container {
+            max-width: 1000px;
+            margin: auto;
+  background-color: #ff914d13;
+            border-radius: 40px;
+            padding: 50px !important;           
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+        }
+.graudate-card{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 30px;
+}
+        /* Header Styling */
+        .header-text {
+            color: #343a40;
+            margin-bottom: 1rem;
+        }
+        .header-text small {
+            font-size: 0.9rem;
+            color: #6c757d;
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+        .header-text h1 {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+        /* Program Section Titles */
+        .section-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #495057;
+            margin-bottom: 1.5rem;
+            padding-top: 1rem;
+        }
+
+        /* List Item Styling */
+        .program-item, .certification-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+            font-size: 1rem;
+            color: #495057;
+        }
+
+        .program-item i, .certification-item i {
+            color: #007bff; /* Blue checkmark for programs */
+            margin-right: 0.75rem;
+            padding-top: 0.2rem;
+        }
+
+        /* Certification Banner Styling (Custom Orange Banner) */
+        .certification-banner-wrap {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            position: relative;
+        }
+
+        .certification-banner {
+            background-color: #e97931; /* Orange color from the image */
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 1.1rem;
+            padding: 0.75rem 2rem;
+            display: inline-block;
+            border-radius: 4px 0 0 4px;
+            position: relative;
+            z-index: 2;
+        }
+
+        /* Creating the orange ribbon/flag tail using pseudo-element */
+        .certification-banner::after {
+            content: "";
+            position: absolute;
+            right: -15px; /* Adjust to control the size of the notch */
+            top: 0;
+            border-top: 20px solid transparent;
+            border-bottom: 20px solid transparent;
+            border-left: 15px solid #e97931;
+            z-index: 1;
+        }
+        
+        .certification-list .certification-item i {
+            color: #e97931; /* Orange checkmark for certifications */
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 576px) {
+            .skills-container {
+                padding: 1.5rem;
+            }
+            .header-text h1 {
+                font-size: 1.75rem;
+            }
+        }
