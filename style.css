@@ -44,7 +44,7 @@ li{
             backdrop-filter: blur(10px);
             -webkit-backdrop-filter: blur(10px); 
             
-            top: 25px; 
+            top: 20px; 
             left: 2%; 
             right: 2%; 
             width: 96%;
@@ -149,7 +149,7 @@ li{
         
        
         .btn-contact {
-            background-color: var(--primary-color);
+            background-color: #f1c02b !important;
             color: var(--secondary-color); 
             font-weight: 700;
             border: none;
@@ -1036,4 +1036,209 @@ li{
     color: #ccc;
     font-size: .75rem;
     margin: 0;
+}
+
+/* ne w */
+
+   .s-hero {
+            height: 120vh;
+            position: relative;
+            overflow: hidden;
+            /* padding-top: 70px; */
+        }
+
+      .s-hero  .swiper-slide {
+            height: 110vh;
+            display: flex;
+            align-items: center;
+            background: #fff;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* ===== Animations ===== */
+       .s-hero  .fade-up {
+            opacity: 0;
+            transform: translateY(40px);
+            animation: fadeUp 1s ease forwards;
+        }
+       .s-hero  .fade-up-delay {
+            opacity: 0;
+            transform: translateY(40px);
+            animation: fadeUp 1.3s ease forwards;
+        }
+        @keyframes fadeUp {
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+       .s-hero  .zoom-in {
+            opacity: 0;
+            transform: scale(0.8);
+            animation: zoomIn 1s ease forwards;
+        }
+        @keyframes zoomIn {
+            to { opacity: 1; transform: scale(1); }
+        }
+
+        .s-hero .slide-up {
+            opacity: 0;
+            transform: translateY(40px);
+            animation: slideUp 1.2s ease forwards;
+        }
+        @keyframes slideUp {
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* ===== Scroll Indicator ===== */
+       .s-hero  .scroll-indicator {
+            position: absolute;
+            left: 50%;
+            bottom: 25px;
+            transform: translateX(-50%);
+            text-align: center;
+        }
+       .s-hero  .scroll-text {
+            color: #fff;
+        }
+       .s-hero  .mouse {
+            width: 22px;
+            height: 35px;
+            border: 2px solid white;
+            border-radius: 16px;
+            margin: 5px auto;
+            position: relative;
+        }
+        .s-hero .mouse:after {
+            content: "";
+            width: 4px;
+            height: 8px;
+            background: #fff;
+            position: absolute;
+            top: 6px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 3px;
+            animation: scrollDown 1s infinite;
+        }
+        @keyframes scrollDown {
+            0% { opacity: 1; top: 6px; }
+            100% { opacity: 0; top: 20px; }
+        }
+
+        /* Responsive */
+        @media(max-width: 768px){
+            .s-hero { padding-top: 80px; }
+        }
+
+
+
+
+        /* hero section  */
+
+
+        .s-hero h1 {
+    font-size: 4rem;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.1;
+}
+@media (min-width: 768px) {
+    .s-hero  ul {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 3rem;
+        row-gap: 1rem;
+    }
+}
+.s-hero  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+/* .s-hero .slide-2::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: linear-gradient(270.39deg, rgba(0, 0, 0, 0) 0.29%, #010041 99.67%);
+} */
+
+.s-hero .slide-2 p{
+    color: #fff ;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif !important;
+}
+.s-hero .slide-1 p{
+    color: #fff ;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif !important;
+}
+.course-detailss ul li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(https://paruluniversity.online/mba_2026/assets/images/bullet.svg) top center no-repeat;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.course-detailss ul li {
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+    color: #fff;
+   font-size: 17px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif !important;
+}
+.course-detailss ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+.s-hero .slide-2 .hero-student-wrapper .new-joining {
+    padding: .75rem 2rem;
+    border: 1px solid rgba(1, 0, 147, .2);
+    position: absolute;
+    width: max-content;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    z-index: 10;
+}
+.s-hero .slide-2 .chart-career span {
+    display: block;
+    background: #f3cc5a;
+    padding: 1rem;
+    color: #000;
+    font-weight: 600;
+    max-width: 350px;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 4px);
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    cursor: pointer;
+
+}
+.swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: #f3cc5a !important;
+}
+.swiper-pagination-bullet {
+    width: 15px !important;
+    height: 15px !important;
+    display: inline-block;
+    border-radius: 1px !important;
+    
+    background: #f3cc5a !important;
+    opacity: var(--swiper-pagination-bullet-inactive-opacity, .2);
 }
