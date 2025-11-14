@@ -569,8 +569,7 @@ li{
 .course-details {
     padding-block: 4rem;
     /* background: linear-gradient(180deg, #735a00 0%, #4d4000 100%); */
-    background-color: #1d1816d6;
-    color: #fff;
+background-image: linear-gradient(to top, #09203f 0%, #537895 100%);    color: #fff;
 }
 .course-details .easy-emi {
     font-size: .75rem;
@@ -794,6 +793,7 @@ li{
     color: #000;
     font-weight: 600;
     max-width: 350px;
+    border-radius: 10px;
 }
 
 .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
@@ -824,8 +824,7 @@ a{
     text-decoration: none !important
 }
 .Hard-copies {
-background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
- background-blend-mode: multiply,multiply;    color: #fff;
+background-image: linear-gradient(to top, #09203f 0%, #537895 100%); background-blend-mode: multiply,multiply;    color: #fff;
     text-align: center;
 }
 .Hard-copies p.lead {
@@ -851,8 +850,7 @@ s-skills__list
     box-shadow: 0px 0px 2px rgba(0, 0, 0, .12);
 }
 .skill-gradaute-head {
-    background-color: #fffaef;
-    padding: 2.5rem 3rem;
+background-color: #f3ede2;    padding: 2.5rem 3rem;
     border-radius: 1.5rem;
 }
 .skill-gradaute-head p{
@@ -918,21 +916,21 @@ s-skills__list
     }
 @media (max-width: 575.98px) {
     .skill-gradaute-head {
-        padding: 1rem;
+        padding: 15px !important;
     }
 }
 @media (max-width: 767.98px) {
     .skill-gradaute-head {
-        padding: 1.5rem;
+        padding: 20px;
     }
 }
 @media (max-width: 1199.98px) {
     .skill-gradaute-head {
-        padding: 2rem 2.5rem;
+        padding: 30px;
     }
 }
 .skill-gradaute-head {
-background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%) !important;    padding: 2.5rem 3rem;
+/* background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%) !important;    padding: 2.5rem 3rem; */
     border-radius: 1.5rem;
 }
 @media (max-width: 575.98px) {
@@ -999,6 +997,12 @@ background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%) !important;
   .faq-form__faqwrapper, .faq-form__formwrapper {
     padding: 2rem;
 }
+@media screen and (max-width:882px){
+   .faq-form__faqwrapper, .faq-form__formwrapper {
+    padding: 10px !important;
+} 
+}
+
 .faq-form__faqwrapper {
     background: #fff;
     border: 1px solid #dcdcdc66;
@@ -1220,8 +1224,7 @@ select {
 /* footer  */
 
     #footer-bg {
-            background-color: #000000; 
-            color: white;
+background-image: linear-gradient(to top, #09203f 0%, #537895 100%);             color: white;
         }
 
         .main-footer-content {
@@ -1299,6 +1302,7 @@ select {
       /* box-shadow: 0 6px 18px rgba(0,0,0,0.12); */
       cursor: pointer;
       transition: transform .18s ease;
+      border: none !important;
     }
     .enquire-btn:hover { transform: translateX(-4px); }
 
@@ -1415,5 +1419,19 @@ select {
  .form-para {
     font-size: 10px !important;
   }  
+.nav-item .nav-link{
+    color: #0e1b43;
+    font-size: 17px;
+    font-weight: 600;
+}
 
-
+.all-card .carousel-control-prev, .carousel-control-next {
+    position: absolute !important;
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50% !important;
+    top: unset !important;
+    bottom: 40px !important;
+    margin: auto !important;
+    opacity: 1 !important;
+}
