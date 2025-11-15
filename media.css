@@ -1,4 +1,4 @@
-@media screen and (max-width:552px){
+@media screen and (max-width:575.98px){
    .s-hero {
             height: 80vh;
             position: relative;
@@ -14,13 +14,20 @@
             position: relative;
             z-index: 1;
         }
-        .s-hero__wrapper h1{
-          font-size: 1.4rem !important;
-        }
+          .s-hero__wrapper h1{
+        font-size: 1.75rem !important;
+    }
+      
 }
 
 
 
+
+@media (max-width: 1199.98px) {
+   .s-hero__wrapper h1{
+        font-size: 3rem;
+    }
+}
 
 @media screen and (max-width:752px){
     
