@@ -7,7 +7,7 @@
         }
 
       .s-hero  .swiper-slide {
-            height: 60vh;
+            height: 75vh;
             display: flex;
             align-items: center;
             background: #fff;
@@ -25,6 +25,11 @@
     }
      .s-hero{
       height: max-content;
+     }
+     .s-hero-contet{
+      justify-content: center !important;
+      align-content: center !important;
+      align-items: center !important;
      }
       
 }
