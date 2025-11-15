@@ -1313,7 +1313,8 @@ background-image: linear-gradient(to top, #09203f 0%, #537895 100%);            
 
     /* Responsive: smaller panel on mobile (full-screen) */
     @media (max-width: 575.98px) {
-   .slide-panel{ width: 100% !important;  }
+   .slide-panel{ width: 100% !important;
+right: -400 !important;  }
   
      .slide-panel   .enquire-btn { right: 8px; top: 36%; padding: 8px 10px; border-radius: 6px; }
     }
