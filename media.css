@@ -1,13 +1,13 @@
 @media screen and (max-width:575.98px){
    .s-hero {
-            height: 80vh;
+            /* height: 80vh; */
             position: relative;
             overflow: hidden;
             /* padding-top: 70px; */
         }
 
       .s-hero  .swiper-slide {
-            height: 80vh;
+            /* height: 80vh; */
             display: flex;
             align-items: center;
             background: #fff;
@@ -78,7 +78,7 @@
     .slide-panel {
         position: fixed;
         top: 17%;
-        right: -350px;
+        right: -550px;
         width: 350px;
     height: 450px;
         background: #fff;

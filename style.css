@@ -701,7 +701,7 @@ background-image: linear-gradient(to top, #09203f 0%, #537895 100%);    color: #
 
         /* Responsive */
         @media(max-width: 768px){
-            .s-hero { padding-top: 80px; }
+            .s-hero { padding-top: 70px; }
         }
 
 
