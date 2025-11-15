@@ -53,3 +53,78 @@
 }
 
 
+/* new  */
+
+
+    #backdrop {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.5);
+        opacity: 0;
+        pointer-events: none;
+        transition: 0.3s ease;
+        z-index: 999;
+    }
+
+    #backdrop.show {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    /* Slide Panel */
+    .slide-panel {
+        position: fixed;
+        top: 17%;
+        right: -350px;
+        width: 350px;
+    height: 450px;
+        background: #fff;
+        padding: 20px;
+        transition: 0.4s ease;
+        z-index: 1000;
+        box-shadow: -3px 0 10px rgba(0, 0, 0, 0.2);
+        /* overflow-y: auto; */
+    }
+
+    .slide-panel.open {
+        right: 0;
+    }
+
+    .enquire-btn {
+         position: fixed;
+      right: 0px;
+      top: 40%;
+      z-index: 1050;
+      background: #f3c24b; /* yellow like screenshot */
+      color: #232938;
+      border-radius: 8px;
+      padding: 10px 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      writing-mode: vertical-rl;
+      text-orientation: mixed;
+      cursor: pointer;
+      transition: transform .18s ease;
+      border: none !important;
+        transform: rotate(180deg);
+      
+    }
+
+    .panel-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .slide-close {
+        background: transparent;
+        border: none;
+        font-size: 26px;
+        cursor: pointer;
+    }
+
+

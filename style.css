@@ -1284,53 +1284,13 @@ background-image: linear-gradient(to top, #09203f 0%, #537895 100%);            
 
  /* side panel         */
 
-    /* Floating vertical Enquire Now button (right side) */
-    .enquire-btn {
-      position: fixed;
-      right: 0px;
-      top: 40%;
-      z-index: 1050;
-      background: #f3c24b; /* yellow like screenshot */
-      color: #232938;
-      border-radius: 8px;
-      padding: 10px 14px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      writing-mode: vertical-rl;
-      text-orientation: mixed;
-      /* box-shadow: 0 6px 18px rgba(0,0,0,0.12); */
-      cursor: pointer;
-      transition: transform .18s ease;
-      border: none !important;
-    }
+
     .enquire-btn:hover { transform: translateX(-4px); }
 
-    /* Slide-in panel */
-    .slide-panel {
-      position: fixed;
-      top: 15%;
-      right: -100%;
-      /* height: 100%; */
-    max-width: 370px;
-    height: 450px;
-      /* max-width: 100%; */
-      z-index: 1060;
-      box-shadow: -10px 0 30px rgba(22,32,47,0.12);
-      transition: right .35s cubic-bezier(.2,.9,.3,1);
-      /* overflow-y: auto; */
-      -webkit-overflow-scrolling: touch;
-       background: #fafaff;
-    border: 1px solid #dcdcdc66;
-    justify-content: center;
-    }
     .slide-panel.open { right: 0; }
 
     /* Panel header styling */
-    .slide-panel .panel-header {
-    margin-top: 10px;
-    padding-left: 10px;
-    }
+  
     .slide-panel h3 {
       font-weight: 400;
       letter-spacing: -0.5px;
@@ -1343,33 +1303,9 @@ background-image: linear-gradient(to top, #09203f 0%, #537895 100%);            
       padding: 12px 24px 40px 24px;
     }
 
-    /* Close (X) button */
-     .slide-panel .slide-close {
-      position: absolute;
-     right: 12px;
-      top: 15px;
-      width: 25px !important;
-      height: 25px !important;
-      border-radius: 50%;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      cursor: pointer;
-      color: #ffffff;
-      background: #f3c24b;
-      border: none;
-    }
 
-    /* Overlay behind panel */
-     .slide-panel .panel-backdrop {
-      /* position: fixed;
-      inset: 0;
-      background: rgba(0,0,0,0.32);
-      z-index: 1055;
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity .25s ease; */
-    }
+
+   
      .slide-panel .panel-backdrop.show {
       opacity: 1;
       pointer-events: auto;
@@ -1377,7 +1313,8 @@ background-image: linear-gradient(to top, #09203f 0%, #537895 100%);            
 
     /* Responsive: smaller panel on mobile (full-screen) */
     @media (max-width: 575.98px) {
-     .slide-panel   .slide-panel { width: 100%; }
+   .slide-panel{ width: 100% !important;  }
+  
      .slide-panel   .enquire-btn { right: 8px; top: 36%; padding: 8px 10px; border-radius: 6px; }
     }
 
