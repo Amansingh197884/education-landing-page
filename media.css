@@ -14,6 +14,9 @@
             position: relative;
             z-index: 1;
         }
+        .s-hero__wrapper h1{
+          font-size: 1.4rem !important;
+        }
 }
 
 
