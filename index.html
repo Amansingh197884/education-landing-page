@@ -1303,9 +1303,7 @@
                 panel.setAttribute('aria-hidden', 'false');
                 backdrop.setAttribute('aria-hidden', 'false');
 
-                // prevent body scroll when panel open
                 document.body.style.overflow = 'hidden';
-                // focus first input for accessibility
                 setTimeout(() => panel.querySelector('input, select, textarea')?.focus(), 200);
             }
 
@@ -1322,24 +1320,21 @@
             closeBtn.addEventListener('click', closePanel);
             backdrop.addEventListener('click', closePanel);
 
-            // close on ESC
             document.addEventListener('keydown', (e) => {
                 if (e.key === 'Escape' && panel.classList.contains('open')) closePanel();
             });
 
-            // Example submit handler — replace with real submission logic (AJAX/fetch)
             form.addEventListener('submit', (e) => {
                 e.preventDefault();
-                // simple validation demonstration
+
                 if (!form.checkValidity()) {
                     form.reportValidity();
                     return;
                 }
-                // simulate sending
                 const data = new FormData(form);
                 console.log('Form data:', Object.fromEntries(data.entries()));
-                // show thank you then close
                 openBtn.innerText = 'Submitting...';
+
                 setTimeout(() => {
                     openBtn.innerText = 'Enquire Now';
                     alert('Thank you! We will contact you soon.');
@@ -1349,7 +1344,6 @@
             });
         </script>
 
-        <!-- Example page content -->
 
 
         <!-- Floating vertical Enquire Now button -->
