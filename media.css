@@ -114,8 +114,8 @@
       right: 0px;
       top: 40%;
       z-index: 1050;
-      background: #f3c24b; /* yellow like screenshot */
-      color: #232938;
+      background: rgb(16, 166, 137) !important; /* yellow like screenshot */
+      color: #fff;
       border-radius: 8px;
       padding: 10px 14px;
       display: flex;
