@@ -114,7 +114,7 @@
       right: 0px;
       top: 40%;
       z-index: 1050;
-      background: rgb(16, 166, 137) !important; /* yellow like screenshot */
+        background: linear-gradient(121deg, #00a787 -132%, #004134 100%) !important;
       color: #fff;
       border-radius: 8px;
       padding: 10px 14px;
