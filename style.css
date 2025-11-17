@@ -813,9 +813,8 @@ background: linear-gradient(121deg, #00a787 -132%, #004134 100%);     padding: 1
 }
 .swiper-pagination-bullet-active {
     opacity: var(--swiper-pagination-bullet-opacity, 1);
-    /* background: #f3cc5a !important; */
+    background: #f3cc5a !important;
 
-            background: linear-gradient(121deg, #00a787 -132%, #004134 100%) !important;
 
 }
 .swiper-pagination-bullet {
@@ -824,7 +823,7 @@ background: linear-gradient(121deg, #00a787 -132%, #004134 100%);     padding: 1
     display: inline-block;
     border-radius: 1px !important;
     
-    background: #f3cc5a !important;
+    background: #0ac3b3 !important;
     opacity: var(--swiper-pagination-bullet-inactive-opacity, .2);
 }
 

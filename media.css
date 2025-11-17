@@ -18,6 +18,10 @@
         font-size: 2.75rem !important;
         font-weight: bold !important;
     }
+    .hero-heading h1{
+         font-size: 2.75rem !important;
+        font-weight: bold !important; 
+    }
     .slide-1{
       padding-top: 20px !important;
     }
