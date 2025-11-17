@@ -16,6 +16,7 @@
         }
           .s-hero__wrapper h1{
         font-size: 1.75rem !important;
+        font-weight: bold !important;
     }
     .slide-1{
       padding-top: 20px !important;
