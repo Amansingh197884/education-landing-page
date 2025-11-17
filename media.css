@@ -36,6 +36,9 @@
       align-content: center !important;
       align-items: center !important;
      }
+     .new-topic h5,p{
+        text-align: center !important;
+     }
       
 }
 
