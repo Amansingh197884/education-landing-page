@@ -57,6 +57,13 @@
         .new-topic h5,p{
         text-align: center !important;
      }
+     .icon-wrapper{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        margin-bottom: 13px;
+     }
 }
 
 
