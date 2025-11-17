@@ -54,6 +54,9 @@
     .man{
       visibility: hidden;
     }
+        .new-topic h5,p{
+        text-align: center !important;
+     }
 }
 
 
