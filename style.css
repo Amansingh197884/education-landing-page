@@ -538,6 +538,11 @@ span,div{
     border-bottom: 1px solid #dcdcdc;
     font-weight: 600;
 }
+.faq-form__faqwrapper .accordion-button:hover {
+    border-bottom: 1px solid #004134;
+    /* font-weight: 600; */
+}
+
 .accordion-button {
     position: relative;
     display: flex;
@@ -1289,8 +1294,8 @@ background: linear-gradient(121deg, #00a787 -132%, #004134 100%);         color:
         }
 
         .whatsapp-float:hover {
-            background-color: #ffda6a;
-            color: #343a40;
+            /* background-color: #ffda6a; */
+            color: #ffffff;
         }
 
         @media (max-width: 767.98px) {
