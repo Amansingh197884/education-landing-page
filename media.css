@@ -174,3 +174,10 @@
     background-color: #fff;
     z-index: 10;
 }
+
+.img-type img{
+
+        width: 200px !important;
+        height: 120px !important;
+
+    }
