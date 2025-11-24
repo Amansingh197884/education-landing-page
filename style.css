@@ -138,7 +138,7 @@ span,div{
             display: block;
             margin-top: 5px;
             right: 0;
-        background: linear-gradient(121deg, #0c6353 -132%, #004134 100%) !important;
+        background: linear-gradient(121deg, #0c6353 -132%, #6499b5 100%) !important;
             transition: width var(--transition-speed) ease, right var(--transition-speed) ease;
         }
 
@@ -154,7 +154,7 @@ span,div{
         
        
         .btn-contact {
-        background: linear-gradient(121deg, #00a787 -132%, #004134 100%) !important;
+        background: linear-gradient(121deg, #00a787 -132%, #6499b5 100%) !important;
             color: #fff !important; 
             font-weight: 700;
             border: none;
@@ -308,7 +308,7 @@ span,div{
             align-items: center;
             border: 1px solid #e0e0e0;
             cursor: pointer;
-                    background: linear-gradient(121deg, #00a787 -132%, #004134 100%) !important;
+                    background: linear-gradient(121deg, #00a787 -132%, #6499b5 100%) !important;
 
             transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
             box-shadow: 0 1px 3px rgba(0,0,0,0.08);
@@ -540,7 +540,7 @@ span,div{
     font-weight: 600;
 }
 .faq-form__faqwrapper .accordion-button:hover {
-    border-bottom: 1px solid #004134;
+    border-bottom: 1px solid #6499b5;
     /* font-weight: 600; */
 }
 
@@ -582,7 +582,7 @@ span,div{
 .course-details {
     padding-block: 4rem;
     /* background: linear-gradient(180deg, #735a00 0%, #4d4000 100%); */
-background: linear-gradient(121deg, #00a787 -132%, #004134 100%);   color: #fff;
+background: linear-gradient(121deg, #00a787 -132%, #6499b5 100%);   color: #fff;
 }
 .course-details .easy-emi {
     font-size: .75rem;
@@ -626,7 +626,7 @@ background: linear-gradient(121deg, #00a787 -132%, #004134 100%);   color: #fff;
 /* ne w   /* easy emi  */
  .s-enroll .sm-text {
     font-size: 1.125rem;
-    color: #004134 !important;
+    color: #6499b5 !important;
 }
 /* hero section  */
    .s-hero {
@@ -803,7 +803,7 @@ background: linear-gradient(121deg, #00a787 -132%, #004134 100%);   color: #fff;
 }
 .s-hero .slide-2 .chart-career span {
     display: block;
-background: linear-gradient(121deg, #00a787 -132%, #004134 100%);     padding: 1rem;
+background: linear-gradient(121deg, #00a787 -132%, #6499b5 100%);     padding: 1rem;
     color: #ffffff;
     font-weight: 600;
     max-width: 350px;
@@ -840,7 +840,7 @@ a{
     text-decoration: none !important
 }
 .Hard-copies {
-background: linear-gradient(121deg, #00a787 -132%, #004134 100%);    text-align: center;
+background: linear-gradient(121deg, #00a787 -132%, #6499b5 100%);    text-align: center;
 }
 .Hard-copies p.lead {
     font-size: 1.5rem;
@@ -866,7 +866,7 @@ s-skills__list
     box-shadow: 0px 0px 2px rgba(0, 0, 0, .12);
 }
 .skill-gradaute-head {
-        /* background: linear-gradient(121deg, #00a787 -132%, #004134 100%); */
+        /* background: linear-gradient(121deg, #00a787 -132%, #6499b5 100%); */
    padding: 2.5rem 3rem;
     border-radius: 1.5rem;
         background-color: rgba(16, 166, 137, 0.1);
@@ -874,10 +874,10 @@ s-skills__list
 .skill-gradaute-head p{
   font-size: 18px;
     font-weight: 500;
-    color: #004134  !important;
+    color: #6499b5  !important;
 }
 .skill-gradaute-head h2{
- color: #004134  !important;
+ color: #6499b5  !important;
 }
 .skill-graduate-list {
     margin-left: .125rem;
@@ -974,7 +974,7 @@ s-skills__list
 }
 .s-enroll__button{
         font-family: "Jost", sans-serif !important;
-        background: linear-gradient(121deg, #00a787 -132%, #004134 100%);
+        background: linear-gradient(121deg, #00a787 -132%, #6499b5 100%);
         color: #fff !important;
         padding: 10px 40px !important;
 
@@ -998,7 +998,7 @@ s-skills__list
     top: 50%;
     transform: translateY(-50%);
     border-radius: 1px;
-background: linear-gradient(121deg, #00a787 -132%, #004134 100%);}
+background: linear-gradient(121deg, #00a787 -132%, #6499b5 100%);}
 .s-enroll__list-item {
     padding-left: 1.25rem;
     position: relative;
@@ -1007,7 +1007,7 @@ background: linear-gradient(121deg, #00a787 -132%, #004134 100%);}
     flex-direction: column;
     justify-content: center;
         font-family: "Jost", sans-serif !important;
-        color: #004134;
+        color: #6499b5;
 
 }
 .footer:before {
@@ -1252,7 +1252,7 @@ select {
 /* footer  */
 
     #footer-bg {
-background: linear-gradient(121deg, #00a787 -132%, #004134 100%);         color: white;
+background: linear-gradient(121deg, #00a787 -132%, #6499b5 100%);         color: white;
         }
 
         .main-footer-content {
@@ -1292,7 +1292,7 @@ background: linear-gradient(121deg, #00a787 -132%, #004134 100%);         color:
             height: 60px;
             bottom: 20px;
             right: 20px;
-        background: linear-gradient(121deg, #00a787 -132%, #004134 100%);
+        background: linear-gradient(121deg, #00a787 -132%, #6499b5 100%);
             color: #fff; 
             border-radius: 50%;
             text-align: center;
@@ -1361,7 +1361,7 @@ right: -400 !important;  }
     /* Slight style for form controls */
      .slide-panel .form-control:focus { box-shadow: none; border-color: #c3cde6; }
     .slide-panel  .apply-btn {
-background: linear-gradient(121deg, #00a787 -132%, #004134 100%);       color: #fff;
+background: linear-gradient(121deg, #00a787 -132%, #6499b5 100%);       color: #fff;
       border: none;
       padding: .6rem 1.15rem;
       border-radius: 10px;
@@ -1416,14 +1416,14 @@ background: linear-gradient(121deg, #00a787 -132%, #004134 100%);       color: #
     color: var(--bs-accordion-active-color);
     background-color: rgba(16, 166, 137, 0.1) !important;
     /* box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color); */
-    border-color: #004134 !important;
+    border-color: #6499b5 !important;
     box-shadow: none !important;
 }
 .logoUniversity{
         font-family: "Jost", sans-serif !important;
         font-size: 30px;
         font-weight: 600;
-        color: #004134;
+        color: #6499b5;
 
 }
 .parul-logo h5{
