@@ -131,8 +131,8 @@
       right: 0px;
       top: 40%;
       z-index: 1050;
-        background: linear-gradient(121deg, #00a787 -132%,#0c83ab 100%) !important;
-      color: #fff;
+    background-image: linear-gradient(90deg,  rgb(253, 216, 101), rgb(250, 183, 0));
+      color: #000000;
       border-radius: 8px;
       padding: 10px 14px;
       display: flex;
