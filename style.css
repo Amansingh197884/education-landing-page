@@ -297,10 +297,10 @@ div {
         }
     }
 
-    .d-flex {
+    /* .d-flex {
         flex-direction: column;
         align-items: stretch;
-    }
+    } */
 
     .coe-badge {
         margin-bottom: 15px;
