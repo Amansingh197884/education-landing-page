@@ -318,7 +318,18 @@ div {
         justify-content: center;
     }
 }
-
+#FFF5D6
+#E7F1FF
+#FFE6F0
+#E5F8F7
+#E6F6E9
+#FDECEC
+#E7FAF8
+#FFF4E0
+#E6F6E9
+#FCEAEA
+#E4F6F4
+#F2F2F2
 
 
 /* navbar css  */
@@ -345,7 +356,6 @@ font-weight: 500 !important;
 
 /* Program Card Styles */
 .all-card .program-card {
-    /* background-color: #ffffff; */
     border-radius: 12px;
     padding: 20px;
     margin-bottom: 25px;
@@ -354,7 +364,7 @@ font-weight: 500 !important;
     align-items: center;
     border: 1px solid #e0e0e0;
     cursor: pointer;
-    background: linear-gradient(121deg, #00a787 -132%, #6499b5 100%) !important;
+    /* background: linear-gradient(121deg, #00a787 -132%, #6499b5 100%) !important; */
 
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
@@ -364,7 +374,7 @@ font-weight: 500 !important;
 .all-card .program-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.06);
-    background-color: #f0f8ff;
+    /* background-color: #f0f8ff; */
 }
 
 .all-card .icon-container {
@@ -384,7 +394,7 @@ font-weight: 500 !important;
 }
 
 .all-card .program-text {
-    color: #fff;
+    color: #030303;
     font-weight: 600;
     font-size: 0.95rem;
     line-height: 1.3;
@@ -680,7 +690,7 @@ font-weight: 500 !important;
 .course-details {
     padding-block: 4rem;
     /* background: linear-gradient(180deg, #735a00 0%, #4d4000 100%); */
-    background: linear-gradient(121deg, #00a787 -132%, #6499b5 100%);
+    background: #4e4637;
     color: #fff;
 }
 
@@ -729,7 +739,7 @@ font-weight: 500 !important;
 /* ne w   /* easy emi  */
 .s-enroll .sm-text {
     font-size: 1.125rem;
-    color: #6499b5 !important;
+    color: #FCC823 !important;
 }
 
 /* hero section  */
@@ -985,7 +995,7 @@ a {
 }
 
 .Hard-copies {
-    background: linear-gradient(121deg, #00a787 -132%, #6499b5 100%);
+    background: #4e4637;
     text-align: center;
 }
 
@@ -1021,17 +1031,17 @@ s-skills__list
     /* background: linear-gradient(121deg, #00a787 -132%, #6499b5 100%); */
     padding: 2.5rem 3rem;
     border-radius: 1.5rem;
-    background-color: rgba(16, 166, 137, 0.1);
+    background-color: #faf1d2ce;
 }
 
 .skill-gradaute-head p {
     font-size: 18px;
     font-weight: 500;
-    color: #6499b5 !important;
+    color:#FCC823 !important;
 }
 
 .skill-gradaute-head h2 {
-    color: #6499b5 !important;
+    color: #FCC823!important;
 }
 
 .skill-graduate-list {
@@ -1143,7 +1153,8 @@ s-skills__list
 
 .s-enroll__button {
     font-family: "Jost", sans-serif !important;
-    background: linear-gradient(121deg, #00a787 -132%, #6499b5 100%);
+    /* background: linear-gradient(121deg, #00a787 -132%, #6499b5 100%); */
+    background-image: linear-gradient(90deg,  rgb(246, 190, 21), rgb(250, 183, 0));
     color: #fff !important;
     padding: 10px 40px !important;
 
@@ -1174,7 +1185,7 @@ s-skills__list
     top: 50%;
     transform: translateY(-50%);
     border-radius: 1px;
-    background: linear-gradient(121deg, #00a787 -132%, #6499b5 100%);
+    background: #FCC823;
 }
 
 .s-enroll__list-item {
@@ -1185,7 +1196,7 @@ s-skills__list
     flex-direction: column;
     justify-content: center;
     font-family: "Jost", sans-serif !important;
-    color: #6499b5;
+    color: #000;
 
 }
 
@@ -1473,7 +1484,7 @@ select {
 /* footer  */
 
 #footer-bg {
-    background: linear-gradient(121deg, #00a787 -132%, #6499b5 100%);
+    background: #4e4637;
     color: white;
 }
 
