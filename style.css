@@ -942,7 +942,7 @@ font-weight: 500 !important;
     display: block;
     /* background: linear-gradient(121deg, #00a787 -132%, #6499b5 100%);     padding: 1rem; */
     color: #000000;
-    padding: 1rem;
+    padding: 0.7rem;
     font-weight: 600;
     max-width: 350px;
     border-radius: 10px;
