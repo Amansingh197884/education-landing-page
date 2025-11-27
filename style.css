@@ -41,8 +41,29 @@ div {
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "  ", monospace;
 
 }
-
-
+      @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(255, 193, 7, 0.4); }
+            70% { box-shadow: 0 0 0 10px rgba(255, 193, 7, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(255, 193, 7, 0); }
+        }
+   .animate-pulse {
+            animation: pulse 2s infinite;
+        }
+.text{
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(34),
+    ond .4s step-end infinite alternate
+}
+@keyframes ond {
+50% {
+    border-color: transparent;
+}
+}
+@keyframes typing {
+    from { width: 0; }
+}
 .navbar>ul>li {
     /* position: relative !important; */
     /* padding: 10px 0 10px 10px !important; */
